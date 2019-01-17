@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://itver.org<?= $request::$subfolders . $request::$relativeUri ?>">
       <?php if (isset($document) && !empty($document) && $document instanceof \CloudControl\Cms\storage\entities\Document) : ?>
           <?php
           $title = $document->title;
