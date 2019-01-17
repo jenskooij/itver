@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "languages",
+        "slug": "languages",
+        "pairs": {
+            "en": "English",
+            "nl": "Nederlands"
+        }
+    },
+    {
+        "title": "global",
+        "slug": "global",
+        "pairs": {
+            "title": "Iterative Versioning"
+        }
+    }
+]

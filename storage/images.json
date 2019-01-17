@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "file": "versioning-flow.png",
+        "type": "image\/png",
+        "size": 67439,
+        "set": {
+            "thumbnail": "versioning-flow-s180x180.png",
+            "original": "versioning-flow.png"
+        }
+    }
+]

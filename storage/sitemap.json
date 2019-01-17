@@ -9,6 +9,15 @@
         "parameters": {}
     },
     {
+        "title": "Search",
+        "slug": "search",
+        "url": "\/search",
+        "component": "SearchComponent",
+        "template": "base",
+        "regex": false,
+        "parameters": {}
+    },
+    {
         "title": "cms",
         "slug": "cms",
         "url": "\/^\\\/cms(.*)\/",
@@ -28,6 +37,8 @@
         "component": "DocumentComponent",
         "template": "base",
         "regex": true,
-        "parameters": {}
+        "parameters": {
+            "cachable": "false"
+        }
     }
 ]
