@@ -18,11 +18,10 @@
                   )); ?>
           <?php else : ?>
               <?php if (isset($document) && $document !== false) : ?>
-                <h1>
-                    <?= \CloudControl\Cms\services\ValuelistService::get('global')->get('title') ?> - <?= \CloudControl\Cms\util\Cms::editDocument($document->path) ?>
-                    <?= $document->title ?>
-                </h1>
-                <p><?= $document->fields->content[0] ?></p>
+                  <?php $this->includeTemplate('templates/pages/document',
+                      array(
+                          'document' => isset($document) ? $document : null
+                      )); ?>
               <?php else : ?>
                   <?php $this->includeTemplate('templates/pages/home',
                       array(
@@ -35,6 +34,11 @@
     </div>
   </main>
   <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__right-section languages">
+        <?php $this->includeTemplate('templates/layout/menu/document-list', array('folder' => isset($folder) ? $folder : null, 'noClass' => true, 'separator' => true)); ?>
+    </div>
+  </footer>
+  <footer class="mdl-mini-footer">
     <div class="mdl-mini-footer__right-section">
       <div class="mdl-logo mdl-cell--hide-phone mdl-cell--hide-tablet"><?= \CloudControl\Cms\services\ValuelistService::get('global')->get('title') ?></div>
       <ul class="mdl-mini-footer__link-list">
@@ -43,7 +47,7 @@
             <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
           </a>
         </li>
-        <li>
+        <li class="mdl-cell--hide-phone mdl-cell--hide-tablet">
           <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Iterative Versioning</span>
           by
           <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.jenskooij.nl" property="cc:attributionName" rel="cc:attributionURL">Jens Kooij</a>
@@ -51,7 +55,7 @@
           <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
           .
         </li>
-        <li>
+        <li class="mdl-cell--hide-phone mdl-cell--hide-tablet">
           Based on a work at
           <a xmlns:dct="http://purl.org/dc/terms/" href="https://www.itver.org" rel="dct:source">https://www.itver.org</a>
           .

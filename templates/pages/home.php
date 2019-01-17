@@ -5,7 +5,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height:200px;
+        height:6em;
         margin:2em;
     }
     .langauges .mdl-navigation__link{

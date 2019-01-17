@@ -12,6 +12,7 @@
                 </div>
             </form>
         </div>
+      <a href="<?=$request::$subfolders?>" class="mdl-navigation__link">Home</a>
         <?php $this->includeTemplate('templates/layout/menu/document-list', array('folder' => isset($folder) ? $folder : null)); ?>
     </nav>
 </div>
