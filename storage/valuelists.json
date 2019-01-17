@@ -11,6 +11,7 @@
         "title": "global",
         "slug": "global",
         "pairs": {
+            "description": "Iterative Versioning is a set of semantics for your version numbers, for use in for example websites.",
             "title": "Iterative Versioning"
         }
     }

@@ -67,7 +67,6 @@
 </div>
 
 <script>var SUBFOLDERS = '<?=$request::$subfolders?>';</script>
-<script src="//s.electerious.com/basicLightbox/dist/basicLightbox.min.js"></script>
 <script src="<?= $request::$subfolders ?>js/image-handler.js"></script>
 </body>
 </html>

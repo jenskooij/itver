@@ -1,4 +1,4 @@
-<h1>Welcome to <?= \CloudControl\Cms\services\ValuelistService::get('global')->get('title') ?>!</h1>
+<h1>Welcome to <?= \CloudControl\Cms\services\ValuelistService::get('global')->get('title') ?></h1>
 <p>Iterative Versioning documentation is available in the following languages:</p>
 <style>
 

@@ -24,7 +24,7 @@ function renderFolder($folder, $prefix)
     <changefreq>monthlty</changefreq>
     <loc><?='https://' . $_SERVER['SERVER_NAME']?>/</loc>
     <priority>1.0</priority>
-    <lastmod><?=gmdate('c', strtotime('01-01-2019'))?></lastmod>
+    <lastmod><?=date('c', strtotime('01-01-2019'))?></lastmod>
   </url>
     <?= renderFolder($sitemap, 'https://' . $_SERVER['SERVER_NAME']) ?>
 </urlset>
