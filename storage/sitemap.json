@@ -20,7 +20,7 @@
     {
         "title": "Sitemap",
         "slug": "sitemap",
-        "url": "\/sitemap.xml",
+        "url": "\/sitemap",
         "component": "SitemapComponent",
         "template": "sitemap",
         "regex": false,
