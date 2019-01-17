@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Main Navigation",
+        "slug": "main-navigation",
+        "component": "DocumentFolderComponent",
+        "parameters": {
+            "documentFolderPath": "\/"
+        }
+    },
+    {
+        "title": "Search",
+        "slug": "search",
+        "component": "SearchComponent",
+        "parameters": {}
+    }
+]

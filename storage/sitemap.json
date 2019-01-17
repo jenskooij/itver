@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Root",
+        "slug": "root",
+        "url": "\/",
+        "component": "BaseComponent",
+        "template": "base",
+        "regex": false,
+        "parameters": {}
+    },
+    {
+        "title": "cms",
+        "slug": "cms",
+        "url": "\/^\\\/cms(.*)\/",
+        "component": "CmsComponent",
+        "template": "cms",
+        "regex": true,
+        "parameters": {
+            "cmsPrefix": "cms",
+            "whitelistIps": "localhost, ::1, 127.0.0.1",
+            "blacklistIps": "222.227.164.73"
+        }
+    },
+    {
+        "title": "Documents",
+        "slug": "documents",
+        "url": "\/^\\\/(.*)\/",
+        "component": "DocumentComponent",
+        "template": "base",
+        "regex": true,
+        "parameters": {}
+    }
+]

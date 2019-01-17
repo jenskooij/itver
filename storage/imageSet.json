@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Thumbnail",
+        "slug": "thumbnail",
+        "width": "180",
+        "height": "180",
+        "method": "smartcrop"
+    }
+]

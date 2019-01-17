@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Content Document",
+        "slug": "content-document",
+        "fields": [
+            {
+                "title": "Intro",
+                "slug": "intro",
+                "type": "Text",
+                "required": false,
+                "multiple": false
+            },
+            {
+                "title": "Content",
+                "slug": "content",
+                "type": "Rich Text",
+                "required": false,
+                "multiple": false
+            }
+        ],
+        "bricks": [],
+        "dynamicBricks": []
+    }
+]
