@@ -18,6 +18,15 @@
         "parameters": {}
     },
     {
+        "title": "Sitemap",
+        "slug": "sitemap",
+        "url": "\/sitemap.xml",
+        "component": "SitemapComponent",
+        "template": "sitemap",
+        "regex": false,
+        "parameters": {}
+    },
+    {
         "title": "cms",
         "slug": "cms",
         "url": "\/^\\\/cms(.*)\/",

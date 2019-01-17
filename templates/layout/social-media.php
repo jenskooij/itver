@@ -1,7 +1,7 @@
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
     <div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col social-media" style="padding:2em;">
-        <?php $link = urlencode('http://' . $_SERVER['SERVER_NAME'] . $request::$requestUri); ?>
+        <?php $link = urlencode('https://' . $_SERVER['SERVER_NAME'] . $request::$requestUri); ?>
         Share this page:
         <a target="_blank" class="icon facebook" title="Delen op Facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?= $link ?>">
             <span>Facebook</span>
