@@ -14,7 +14,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="manifest" href="<?=$request::$subfolders?>manifest.json">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon" href="<?=$request::$subfolders?>images/icons/icon-144x144.png">
+    <link rel="icon" href="<?=$request::$subfolders?>favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="<?= $request::$subfolders ?>css/site.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css">

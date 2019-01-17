@@ -6,7 +6,7 @@
   height:6em;
   margin:2em;
 }
-.langauges .mdl-navigation__link{
+.langauges a{
   display:list-item;
 }
 
