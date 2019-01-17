@@ -1,5 +1,83 @@
 [
     {
+        "timestamp": 1547734008,
+        "message": "updated search index",
+        "icon": "search",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547734006,
+        "message": "published document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">nl\/20190101-nederlands<\/a>",
+        "icon": "check-circle-o",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547734006,
+        "message": "edited document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">2019.01.01 - Nederlands<\/a> in path \/nl\/20190101-nederlands",
+        "icon": "pencil",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733986,
+        "message": "updated search index",
+        "icon": "search",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733984,
+        "message": "edited document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">2019.01.01 - Nederlands<\/a> in path \/nl\/20190101-nederlands",
+        "icon": "pencil",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733984,
+        "message": "published document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">nl\/20190101-nederlands<\/a>",
+        "icon": "check-circle-o",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733957,
+        "message": "updated search index",
+        "icon": "search",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733955,
+        "message": "published document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">nl\/20190101-nederlands<\/a>",
+        "icon": "check-circle-o",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733955,
+        "message": "edited document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">2019.01.01 - Nederlands<\/a> in path \/nl\/20190101-nederlands",
+        "icon": "pencil",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733936,
+        "message": "edited document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">2019.01.01 - Nederlands<\/a> in path \/nl\/20190101-nederlands",
+        "icon": "pencil",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733874,
+        "message": "updated search index",
+        "icon": "search",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733872,
+        "message": "published document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">nl\/20190101-nederlands<\/a>",
+        "icon": "check-circle-o",
+        "user": "admin"
+    },
+    {
+        "timestamp": 1547733872,
+        "message": "edited document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190101-nederlands\">2019.01.01 - Nederlands<\/a> in path \/nl\/20190101-nederlands",
+        "icon": "pencil",
+        "user": "admin"
+    },
+    {
         "timestamp": 1547731510,
         "message": "updated search index",
         "icon": "search",
@@ -193,14 +271,14 @@
     },
     {
         "timestamp": 1547719960,
-        "message": "published document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190102\">nl\/20190102<\/a>",
-        "icon": "check-circle-o",
+        "message": "created document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190102\">2019.01.02<\/a> in path \/nl",
+        "icon": "plus",
         "user": "admin"
     },
     {
         "timestamp": 1547719960,
-        "message": "created document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190102\">2019.01.02<\/a> in path \/nl",
-        "icon": "plus",
+        "message": "published document <a href=\"\/cms\/documents\/edit-document?slug=nl\/20190102\">nl\/20190102<\/a>",
+        "icon": "check-circle-o",
         "user": "admin"
     },
     {
