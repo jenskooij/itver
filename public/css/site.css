@@ -1,0 +1,79 @@
+/*Homepage links to languages*/
+.langauges {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height:6em;
+  margin:2em;
+}
+.langauges .mdl-navigation__link{
+  display:list-item;
+}
+
+/*Social*/
+
+.social-media {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+  text-align: center;
+  clear: both
+}
+
+.social-media .icon {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.9em;
+  vertical-align:middle;
+}
+
+@media only screen and (min-width:1280px) {
+  .social-media .icon {
+    font-size: 2.3em
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1279px) {
+  .social-media .icon {
+    font-size: 2.3em
+  }
+}
+
+.social-media .icon:before {
+  font-family: FontAwesome, sans-serif
+}
+
+.social-media .icon:hover:before {
+  color: #289eff
+}
+
+.social-media .icon span {
+  display: none
+}
+
+.social-media .facebook:before {
+  content: "\f082"
+}
+
+.social-media .twitter:before {
+  content: "\f081"
+}
+
+.social-media .google-plus:before {
+  content: "\f0d4"
+}
+
+.social-media .linkedin:before {
+  content: "\f08c"
+}
+
+.social-media .tumblr:before {
+  content: "\f174"
+}
+
+.social-media .pinterest:before {
+  content: "\f0d3"
+}

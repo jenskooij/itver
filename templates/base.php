@@ -6,9 +6,9 @@
     <?php $this->includeTemplate('templates/layout/menu', array('folder' => isset($folder) ? $folder : null)); ?>
 
   <main class="mdl-layout__content">
-    <div class="demo-container mdl-grid">
+    <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-      <div class=" mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col" style="padding:2em;">
+      <div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col" style="padding:2em;">
 
         <!-- This is where the main content of the found document is shown -->
           <?php if (isset($searchResults)) : ?>
@@ -32,6 +32,7 @@
           <?php endif ?>
       </div>
     </div>
+<?php $this->includeTemplate('templates/layout/social-media');?>
   </main>
   <footer class="mdl-mini-footer">
     <div class="mdl-mini-footer__right-section languages">
