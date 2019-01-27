@@ -7,5 +7,14 @@
             "thumbnail": "versioning-flow-s180x180.png",
             "original": "versioning-flow.png"
         }
+    },
+    {
+        "file": "iterative-versioning-2019-01-02.png",
+        "type": "image\/png",
+        "size": 67368,
+        "set": {
+            "thumbnail": "iterative-versioning-2019-01-02-s180x180.png",
+            "original": "iterative-versioning-2019-01-02.png"
+        }
     }
 ]
