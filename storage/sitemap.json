@@ -3,7 +3,7 @@
         "title": "Root",
         "slug": "root",
         "url": "\/",
-        "component": "BaseComponent",
+        "component": "CachableBaseComponent",
         "template": "base",
         "regex": false,
         "parameters": {}
@@ -46,7 +46,7 @@
         "template": "base",
         "regex": true,
         "parameters": {
-            "cachable": "false"
+            "cachable": "true"
         }
     }
 ]
